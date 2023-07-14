@@ -85,6 +85,41 @@
   box-sizing: border-box;
 }
 
+.unfinished-alert
+{
+  color: orangered;
+}
+
+.font-shadow-2
+{
+  --shadow-color: #00000022;
+  text-shadow: 0.5px 0px var(--shadow-color), 0px 0.5px var(--shadow-color), -0.5px 0px var(--shadow-color), 0px -0.5px var(--shadow-color);
+}
+
+.font-shadow-3
+{
+  --shadow-color: #00000033;
+  text-shadow: 0.5px 0px var(--shadow-color), 0px 0.5px var(--shadow-color), -0.5px 0px var(--shadow-color), 0px -0.5px var(--shadow-color);
+}
+
+.font-shadow-4
+{
+  --shadow-color: #00000044;
+  text-shadow: 0.5px 0px var(--shadow-color), 0px 0.5px var(--shadow-color), -0.5px 0px var(--shadow-color), 0px -0.5px var(--shadow-color);
+}
+
+.font-shadow-6
+{
+  --shadow-color: #00000066;
+  text-shadow: 0.5px 0px var(--shadow-color), 0px 0.5px var(--shadow-color), -0.5px 0px var(--shadow-color), 0px -0.5px var(--shadow-color);
+}
+
+.font-brighten-3
+{
+  --shadow-color: #FFFFFF33;
+  text-shadow: 0.5px 0px var(--shadow-color), 0px 0.5px var(--shadow-color), -0.5px 0px var(--shadow-color), 0px -0.5px var(--shadow-color);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
