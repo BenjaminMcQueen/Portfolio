@@ -85,6 +85,10 @@
   box-sizing: border-box;
 }
 
+.flat-link{
+  text-decoration:none;
+}
+
 .unfinished-alert
 {
   color: orangered;
@@ -111,6 +115,12 @@
 .font-shadow-6
 {
   --shadow-color: #00000066;
+  text-shadow: 0.5px 0px var(--shadow-color), 0px 0.5px var(--shadow-color), -0.5px 0px var(--shadow-color), 0px -0.5px var(--shadow-color);
+}
+
+.font-shadow-8
+{
+  --shadow-color: #00000088;
   text-shadow: 0.5px 0px var(--shadow-color), 0px 0.5px var(--shadow-color), -0.5px 0px var(--shadow-color), 0px -0.5px var(--shadow-color);
 }
 
