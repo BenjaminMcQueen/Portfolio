@@ -85,6 +85,18 @@
   box-sizing: border-box;
 }
 
+.card{
+  max-width: 35rem;
+  margin: auto;
+}
+
+.employment-image{
+  height: 160px; 
+  object-fit: contain;
+  border-radius: 10%;
+  border: var(--bs-primary) 2px solid;
+}
+
 .flat-link{
   text-decoration:none;
 }
